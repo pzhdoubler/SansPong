@@ -1,2 +1,0 @@
-C:\mingw64\bin\ar.exe qc libpong_core.a  CMakeFiles/pong_core.dir/src/CompView.cpp.obj CMakeFiles/pong_core.dir/src/GameView.cpp.obj CMakeFiles/pong_core.dir/src/PlayerView.cpp.obj CMakeFiles/pong_core.dir/src/SingleRandom.cpp.obj CMakeFiles/pong_core.dir/src/StatePlaying.cpp.obj
-C:\mingw64\bin\ranlib.exe libpong_core.a

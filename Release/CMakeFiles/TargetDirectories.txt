@@ -1,4 +1,0 @@
-C:/Users/Zack HDoubler/source/repos/pong/Release/CMakeFiles/pong_core.dir
-C:/Users/Zack HDoubler/source/repos/pong/Release/CMakeFiles/edit_cache.dir
-C:/Users/Zack HDoubler/source/repos/pong/Release/CMakeFiles/main.dir
-C:/Users/Zack HDoubler/source/repos/pong/Release/CMakeFiles/rebuild_cache.dir
