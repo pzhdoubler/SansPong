@@ -12,6 +12,7 @@ int main(int argc, char** argv)
 {
 	// create main window
 	sf::RenderWindow App(sf::VideoMode(800, 600, 32), "Sans Pong - SFML", sf::Style::Titlebar);
+	App.setFramerateLimit(120);
 
 	sf::RectangleShape top_bar(sf::Vector2f(800, 10));
 	top_bar.setPosition(0, Const::Y_MIN-10);

@@ -42,32 +42,32 @@ Creates static references to loaded resource then passes them to internal resour
 bool PlayerView::loadResources()
 {
 	static sf::Font comicsans;
-	comicsans.loadFromFile("resources/comicsans.ttf");
+	comicsans.loadFromFile("..\\resources\\comicsans.ttf");
 	font = &comicsans;
 
 	static sf::Music mega;
-	mega.openFromFile("resources/Undertale-Megalovania.ogg");
+	mega.openFromFile("..\\resources\\Undertale-Megalovania.ogg");
 	mega.setLoop(true);
 	music = &mega;
 
 	static sf::Texture heart;
-	heart.loadFromFile("resources/undertaleheart.png");
+	heart.loadFromFile("..\\resources\\undertaleheart.png");
 	ballTexture = &heart;
 
 	static sf::Texture bone;
-	bone.loadFromFile("resources/bonepaddle.png");
+	bone.loadFromFile("..\\resources\\bonepaddle.png");
 	paddleTexture = &bone;
 
 	static sf::Texture sans;
-	sans.loadFromFile("resources/sanssprite.png");
+	sans.loadFromFile("..\\resources\\sanssprite.png");
 	AIBasicTexture = &sans;
 
 	static sf::Texture sans_shrug;
-	sans_shrug.loadFromFile("resources/sansshrugsprite.png");
+	sans_shrug.loadFromFile("..\\resources\\sansshrugsprite.png");
 	AIWonTexture = &sans_shrug;
 
 	static sf::Texture sans_nervous;
-	sans_nervous.loadFromFile("resources/sansnervoussprite.png");
+	sans_nervous.loadFromFile("..\\resources\\sansnervoussprite.png");
 	AILoseTexture = &sans_nervous;
 }
 
